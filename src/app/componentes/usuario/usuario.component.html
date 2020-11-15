@@ -1,0 +1,8 @@
+<ul  *ngFor='let use of usuario' class=use>
+  <li><strong>ID:</strong> {{ use.id }}</li>
+  <li><strong>Name:</strong> {{ use.name }}</li>
+  <li><strong>Email:</strong> {{ use.email }}</li>
+  <li><strong>Address:</strong> {{ use.address.street }}, {{ use.address.suite }}, {{ use.address.city }}</li>
+  <hr>
+</ul>  
+
